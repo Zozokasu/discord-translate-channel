@@ -1,0 +1,16 @@
+[project]
+name = "discord-translate"
+version = "0.2.0"
+description = "Discord bot that mirrors a Japanese and an English channel through LLM translation"
+authors = [
+    { name = "ぞぞかす", email = "jojohounds@gmail.com" }
+]
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "discord-py==2.7.1",
+    "httpx==0.28.1",
+    "python-dotenv==1.2.4",
+]
+
+[tool.uv]
+package = false
